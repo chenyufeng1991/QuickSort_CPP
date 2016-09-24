@@ -11,6 +11,15 @@
 #include <algorithm>
 
 using namespace std;
+/**
+ *  快速排序的时间复杂度O(nlogn),空间复杂度O(nlogn),是一种不稳定的排序。
+ *
+ *  @param vec   <#vec description#>
+ *  @param left  <#left description#>
+ *  @param right <#right description#>
+ *
+ *  @return <#return value description#>
+ */
 
 int Partition(vector<int> &vec, int left, int right);
 void QuickSort(vector<int> &vec, int left, int right);
