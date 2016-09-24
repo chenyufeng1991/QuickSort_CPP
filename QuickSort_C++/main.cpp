@@ -20,7 +20,7 @@ int main(int argc, const char * argv[])
     int arr[] = {5,1,2,8,0,6};
     vector<int> vectorFromArray(arr,arr + sizeof(arr)/sizeof(int));
 
-    QuickSort(vectorFromArray, 0, 5);
+    QuickSort(vectorFromArray, 0, int32_t(vectorFromArray.size() - 1));
 
     vector<int>::iterator vecIte;
     for (vecIte = vectorFromArray.begin(); vecIte != vectorFromArray.end(); vecIte++)
